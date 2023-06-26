@@ -35,7 +35,7 @@ app.post('/api/users', (req, res) => {
 });
 
 
-const serviceAccount = require("<path-to-service-account-json>");
+const serviceAccount = require("<./gatewatch-c324a-firebase-adminsdk-z0ylq-83ac653000>");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
