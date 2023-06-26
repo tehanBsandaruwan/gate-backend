@@ -1,0 +1,23 @@
+{
+  "name": "gate-backend",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "./gate-backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gated",
+    "community",
+    "management",
+    "app",
+    "backend",
+    "node.js"
+  ],
+  "author": "Tehan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase": "^9.23.0"
+  }
+}
