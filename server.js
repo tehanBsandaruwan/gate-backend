@@ -39,7 +39,7 @@ const serviceAccount = require("<path-to-service-account-json>");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "<your-database-url>"
+  databaseURL: "<firebasebase>"
 });
 
 
